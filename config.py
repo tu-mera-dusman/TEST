@@ -36,7 +36,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # ----------------------------------------------------------------
 
 # ----------------------------------------------------------------
-LOGGER_ID = int(getenv("LOGGER_ID", -1002478982051))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002223516578))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
 OWNER_ID = int(getenv("OWNER_ID", 7355202884))
@@ -68,10 +68,10 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ProBotts")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/ProBotGc")
-SOURCE = getenv("SOURCE", "https://t.me/ProBotts")
-CHAT = getenv("CHAT", "https://t.me/ProBotGc")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/nobita_all_bot")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/nobita_all_bot")
+SOURCE = getenv("SOURCE", "https://t.me/nobita_all_bot")
+CHAT = getenv("CHAT", "https://t.me/nobita_all_bot")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
@@ -184,4 +184,4 @@ if SUPPORT_CHAT:
 # ----------------------------------------------------------------------------------------
 # ----------------------------------------------------------------------------------------
 
-CLONE_LOGGER = int(getenv("CLONE_LOGGER", -1002462854771))
+CLONE_LOGGER = int(getenv("CLONE_LOGGER", -1002223516578))
