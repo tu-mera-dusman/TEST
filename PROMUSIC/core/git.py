@@ -52,7 +52,7 @@ def git():
         origin.fetch()
         
         # Check if the branch exists
-        upstream_branch_ref = origin.refs.get(config.UPSTREAM_BRANCH, None)
+        upstream_branch_ref = origin.refs.get(config.UPSTREAM_BRANCH, "main")
         if upstream_branch_ref:
             repo.create_head(config.UPSTREAM_BRANCH, upstream_branch_ref)
             repo.heads[config.UPSTREAM_BRANCH].set_tracking_branch(upstream_branch_ref)
