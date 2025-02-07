@@ -32,7 +32,7 @@ async def init():
     await app.start()
     for all_module in ALL_MODULES:
         importlib.import_module("PROMUSIC.plugins" + all_module)
-    LOGGER("PROMUSIC.plugins").info("𝐀𝐥𝐥 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬 𝐋𝐨𝐚𝐝𝐞𝐝 𝐁𝐚𝐛𝐲🥳...")
+    LOGGER("PROMUSIC.plugins").info("𝐀𝐋𝐋 𝐅𝐄𝐀𝐓𝐔𝐑𝐄 𝐋𝐎𝐀𝐃𝐄𝐃 𝐂𝐇𝐀𝐓𝐍𝐈...")
     await userbot.start()
     await PRO.start()
     try:
@@ -47,12 +47,12 @@ async def init():
     await PRO.decorators()
     await restart_bots()
     LOGGER("PROMUSIC").info(
-        "╔═════ஜ۩۞۩ஜ════╗\n  ☠︎︎𝗠𝗔𝗗𝗘 𝗕𝗬 𝗣𝗿𝗼𝗕𝗼𝘁𝘀☠︎︎\n╚═════ஜ۩۞۩ஜ════╝"
+        "☠︎︎𝐌𝐀𝐃𝐄 𝐁𝐘 𝐂𝐇𝐀𝐓𝐍𝐈 𝐆𝐈𝐑𝐋 ☠︎︎"
     )
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("PROMUSIC").info("𝗦𝗧𝗢𝗣 𝗣𝗿𝗼𝗕𝗼𝘁 𝗠𝗨𝗦𝗜𝗖🎻 𝗕𝗢𝗧..")
+    LOGGER("PROMUSIC").info("𝐒𝐓𝐎𝐏  𝐂𝐇𝐀𝐓𝐍𝐈 𝐌𝐔𝐒𝐈𝐂..")
 
 
 if __name__ == "__main__":
