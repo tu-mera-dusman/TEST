@@ -5,7 +5,7 @@ from PROMUSIC import app
 
 #--------------------------
 
-MUST_JOIN = "NOBITA_ALL_BOT"
+MUST_JOIN = "sundarma01"
 #------------------------
 @app.on_message(filters.incoming & filters.private, group=-1)
 async def must_join_channel(app: Client, msg: Message):
@@ -26,7 +26,7 @@ async def must_join_channel(app: Client, msg: Message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("• ᴊᴏɪɴ •", url="https://t.me/+PGXpOx57WVVhMmM9"),
+                                InlineKeyboardButton("• ᴊᴏɪɴ •", url="https://t.me/sundarma01"),
                                 InlineKeyboardButton("• ᴊᴏɪɴ •", url="https://t.me/sundarma01"),
                             ]
                         ]
