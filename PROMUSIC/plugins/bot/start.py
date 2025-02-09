@@ -28,8 +28,8 @@ from strings import get_string
 
 
 YUMI_PICS = [
-"https://files.catbox.moe/o2bm68.jpg",
 "https://files.catbox.moe/lh7eu2.jpg",
+"https://files.catbox.moe/o2bm68.jpg",
 
 ]
 
@@ -76,8 +76,8 @@ async def start_pm(client, message: Message, _):
             key = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text=_["S_B_8"], url=link),
-                        InlineKeyboardButton(text=_["S_B_9"], url=config.SUPPORT_CHAT),
+                        InlineKeyboardButton(text=_["S_B_8"], url=config.SUPPORT_CHAT),
+                        InlineKeyboardButton(text=_["S_B_9"], url=config.UPDATE),
                     ],
                 ]
             )
